@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    font-size: 40px;
+    
+}
+
+ li {
+    float: left;
+    border-right: 2px solid #bbb;
+    color: #ffff;
+    padding-right: 10px;
+    padding-left: 10px;
+    /* Add your styles for each list item here */
+}
+li:last-child {
+    
+    border-right: none;
+  
+}
+li a:hover {
+    background-color: #111;
+    color: #ffff;
+}
+
+
+li a{
+    display: block;
+    color:#bbb;
+    text-decoration: none;
+    padding:14px 16px;
+    text-align: center;
+    padding-right: 10px;
+   
+}
